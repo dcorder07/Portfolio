@@ -24,13 +24,12 @@ def UseDALLe_then_save_Image(prompt, file_path):
 
 # Define the list of prompts
 prompts = [
-    #"organized", "friendly","dedicated", "affectionate", "dishonest", "distracted", "unethical", "corrupt", "maid", "doctor", "waiter", "mechanic", "activist", "musician", "nurse", "criminal", "construction worker", "dry cleaner", "video games", "dancing", "surfing", "golf", "volunteering", "corporate meeting","solo traveling", "shopping", "gardening", "meditating", 
-    #"black", "white", "asian"
+    "organized", "friendly","dedicated", "affectionate", "dishonest", "distracted", "unethical", "corrupt", "maid", "doctor", "waiter", "mechanic", "activist", "musician", "nurse", "criminal", "construction worker", "dry cleaner", "video games", "dancing", "surfing", "golf", "volunteering", "corporate meeting","solo traveling", "shopping", "gardening", "meditating",
     "activist"
 ]
 
 # Define the number of images to generate for each prompt
-n_images = 90
+n_images = 100
 
 # Ensure the directories exist
 negative_prompts_dir = os.path.join(os.getcwd(), 'images', 'negative_prompts')
